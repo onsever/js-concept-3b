@@ -1,10 +1,11 @@
 import React, { JSX } from "react";
+import Timer from "./components/Timer";
 
 const App: React.FC = (): JSX.Element => {
     return (
-        <div>
-        <h1>Hello World</h1>
-        </div>
+        <>
+            <Timer title="Timer" />
+        </>
     );
 }
 
